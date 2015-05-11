@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:aem="http://schemas.android.com/apk/res/com.aemiot.android.sample"
+    android:layout_width="fill_parent"    
+    android:layout_height="fill_parent"    
+    android:scrollbars="vertical"    
+    android:fadingEdge="vertical">   
+	<LinearLayout  
+	    android:id="@+id/LinearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+	
+	    <com.aemiot.android.library.view.EditTextPlus
+	        android:id="@+id/editText1"
+	        style="@style/EditTextPlus"
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dp"
+	        android:layout_margin="5dp"
+	        android:layout_weight="1"
+	        android:text="@string/test_edittextplus"
+	        android:ems="10"
+	        android:singleLine="true" />
+	
+	    <com.aemiot.android.library.view.EditTextPlus
+	        android:id="@+id/editText2"
+	        style="@style/EditTextPlusNight"
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dp"
+	        android:layout_margin="5dp"
+	        android:layout_weight="1"
+	        android:text="@string/test_edittextplus"
+	        android:ems="10"
+	        android:singleLine="true" />
+	
+	    <com.aemiot.android.library.view.EditTextPlus
+	        android:id="@+id/editText3"
+	        style="@style/EditTextPlus"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_margin="5dp"
+	        android:layout_weight="1"
+	        android:text="@string/test_edittextplus"
+	        android:ems="10"
+	        android:singleLine="true" />
+	
+	    <com.aemiot.android.library.view.EditTextPlus
+	        android:id="@+id/editText4"
+	        style="@style/EditTextPlusNight"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_margin="5dp"
+	        android:layout_weight="1"
+	        android:text="@string/test_edittextplus"
+	        android:ems="10"
+	        android:singleLine="true" />
+	    
+	    <com.aemiot.android.library.view.EditTextPlus
+	        android:id="@+id/editText5"
+	        style="@style/EditTextPlus"
+	        aem:icon="@drawable/ic_user"
+	        aem:icon_width="30dp"
+	        aem:icon_height="30dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dp"
+	        android:layout_margin="5dp"
+	        android:layout_weight="1"
+	        android:text="@string/test_edittextplus"
+	        android:ems="10"
+	        android:singleLine="true" />
+	
+	    <com.aemiot.android.library.view.EditTextPlus
+	        android:id="@+id/editText6"
+	        style="@style/EditTextPlusNight"
+	        aem:icon="@drawable/ic_lock"
+	        aem:icon_width="30dp"
+	        aem:icon_height="30dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dp"
+	        android:layout_margin="5dp"
+	        android:layout_weight="1"
+	        android:text="@string/test_edittextplus"
+	        android:ems="10"
+	        android:singleLine="true" />
+	    
+	    <com.aemiot.android.library.view.EditTextPlus
+	        android:id="@+id/editText7"
+	        style="@style/EditTextPlus"
+	        aem:icon="@drawable/ic_user"
+	        aem:icon_width="30dp"
+	        aem:icon_height="30dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dp"
+	        android:layout_margin="5dp"
+	        android:layout_weight="1"
+	        android:text="@string/test_edittextplus"
+	        android:ems="10" />
+	
+	    <com.aemiot.android.library.view.EditTextPlus
+	        android:id="@+id/editText8"
+	        style="@style/EditTextPlusNight"
+	        aem:icon="@drawable/ic_lock"
+	        aem:icon_width="30dp"
+	        aem:icon_height="30dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="0dp"
+	        android:layout_margin="5dp"
+	        android:layout_weight="1"
+	        android:text="@string/test_edittextplus"
+	        android:ems="10" />
+	</LinearLayout>
+</ScrollView>  

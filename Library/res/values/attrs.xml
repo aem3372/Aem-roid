@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="EditTextPlus">
+        <attr name="clearButton" format="reference" />
+        <attr name="clearButton_width" format="dimension" />
+        <attr name="clearButton_height" format="dimension" />
+        <attr name="icon" format="reference" />
+        <attr name="icon_width" format="dimension" />
+        <attr name="icon_height" format="dimension" />
+        <attr name="compound_padding" format="dimension" />
+    </declare-styleable>
+    
+</resources>

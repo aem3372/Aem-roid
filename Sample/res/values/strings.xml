@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Test</string>
+    <string name="home_description">A home page.</string>
+    <string name="test_description">A test page.</string>
+    <string name="setting_description">A setting page.</string>
+    <string name="test_edittextplus">Test EditTextPlus</string>
+</resources>

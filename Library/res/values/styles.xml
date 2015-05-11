@@ -1,0 +1,18 @@
+<resources 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aem="http://schemas.android.com/apk/res/com.aemiot.test" >
+
+    <!-- EditTextPlus -->
+    <style name="EditTextPlus">
+        <item name="clearButton">@drawable/editviewplus_clearbutton</item>
+        <item name="android:background">@drawable/editviewplus_background</item>   
+        <item name="android:textColor">@android:color/black</item> 
+    </style>
+    
+    <style name="EditTextPlusNight">
+        <item name="clearButton">@drawable/editviewplus_clearbutton_night</item>
+        <item name="android:background">@drawable/editviewplus_background_night</item>    
+        <item name="android:textColor">@android:color/white</item> 
+    </style>
+    
+</resources>
